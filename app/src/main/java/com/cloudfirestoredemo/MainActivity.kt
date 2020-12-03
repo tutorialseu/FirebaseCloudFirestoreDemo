@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun attachBaseContext(newBase: Context?) {
         super.attachBaseContext(newBase)
         MultiDex.install(this)
+
     }
 
     /**
